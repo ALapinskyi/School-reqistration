@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <mapping class="com.interpak.schoolreg.domain.Country"/>
+  <mapping class="com.interpak.schoolreg.domain.City"/>
+  <mapping class="com.interpak.schoolreg.domain.ZIP"/>
+  <mapping class="com.interpak.schoolreg.domain.Telephone"/>
+  <mapping class="com.interpak.schoolreg.domain.Users"/>
+  <mapping class="com.interpak.schoolreg.domain.Wishes"/>
+  <mapping class="com.interpak.schoolreg.domain.Role"/>
+  <mapping class="com.interpak.schoolreg.domain.Address"/>
+  <mapping class="com.interpak.schoolreg.domain.School"/>
+  <mapping class="com.interpak.schoolreg.domain.UserAddress"/>
+  <mapping class="com.interpak.schoolreg.domain.UserSchool"/>
+ </session-factory>
+</hibernate-configuration>
